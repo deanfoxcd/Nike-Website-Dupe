@@ -40,6 +40,7 @@ function Hero() {
                 <p className="font-palanquin text-4xl font-bold">
                   {stat.value}
                 </p>
+
                 <p className="font-montserrat leading-7 text-slate-gray">
                   {stat.label}
                 </p>

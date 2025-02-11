@@ -8,6 +8,7 @@ function PopularProducts() {
         <h2 className="font-palanquin text-4xl font-bold">
           Our <span className="text-coral-red">Popular</span> Products
         </h2>
+
         <p className="mt-2 font-montserrat text-slate-gray lg:max-w-lg">
           Experience top-notch quality and style with our sought-after
           selections.

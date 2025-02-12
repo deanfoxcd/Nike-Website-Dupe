@@ -1,6 +1,14 @@
-function Button({ label, iconPath }) {
+function Button({
+  label,
+  iconPath,
+  backgroundColor = 'bg-coral-red',
+  borderColor = 'border-coral-red',
+  textColor = 'text-white',
+}) {
   return (
-    <button className="flex items-center justify-center gap-2 rounded-full border border-coral-red bg-coral-red px-7 py-4 font-montserrat text-lg leading-none text-white">
+    <button
+      className={`${borderColor} flex items-center justify-center gap-2 rounded-full border ${backgroundColor} px-7 py-4 font-montserrat text-lg leading-none ${textColor}`}
+    >
       {label}
       {iconPath && (
         <img

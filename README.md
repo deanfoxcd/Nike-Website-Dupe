@@ -8,7 +8,7 @@ A modern, visually striking Nike-themed landing page built with React, Vite, and
 
 ## 🚀 Demo
 
-👉 [Visit the Nike Landing Page](nike-website-dupe.vercel.app)
+👉 [Visit the Nike Landing Page](https://nike-website-dupe.vercel.app/)
 
 ---
 

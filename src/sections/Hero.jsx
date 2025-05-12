@@ -33,7 +33,7 @@ function Hero() {
 
         <Button label="Shop now" iconPath={arrowRight} />
 
-        <div className="flex-wrapw-full mt-20 flex items-start justify-start gap-16">
+        <div className="flex-wrap-full mt-20 flex items-start justify-start gap-16">
           {statistics.map((stat) => {
             return (
               <div key={stat.label}>
